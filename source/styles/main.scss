@@ -12,7 +12,7 @@ body {
 $font-1: 'Lato', sans-serif;
 
 $color-1: #21C2F8;
-$color-2: #FFFFFF;
+$color-2: #FFF;
 $color-3: #222533;
 
 .row {
@@ -58,5 +58,23 @@ $color-3: #222533;
     &.x-large {
         font-size: 36px;
         padding: 28px 101.2px;
+    }
+    
+    &.round {
+        &-3 {
+            border-radius: 3px;
+        }
+    
+        &-7 {
+            border-radius: 7px;
+        }
+    
+        &-12 {
+            border-radius: 12px;
+        }
+    
+        &-20 {
+            border-radius: 20px;
+        }
     }
 }
